@@ -1,0 +1,111 @@
+@import url('https://cdn.jsdelivr.net/gh/sun-typeface/SUIT/fonts/static/woff2/SUIT.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Mono:wght@100..900&family=Odor+Mean+Chey&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Mono:wght@100..900&family=Odor+Mean+Chey&display=swap');
+@import url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo.css');
+@import url('https://webfontworld.github.io/goodchoice/Jalnan.css');
+.tit_wrap {
+    max-width: 40rem;
+    position: relative;
+}
+h1.tit {
+    font-size: 7rem;
+    font-weight: 900;
+}
+p.txt{
+    font-size: 1.4rem;
+    font-weight: 200;
+    margin-top:1rem;
+    line-height: 1.6;
+}
+#wrap{
+    height: 100%;
+}
+section {
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+    overflow-x: hidden;
+}
+.rel {
+    max-width: 130rem;
+    margin: auto;
+    position: relative;
+}
+#s0,#s2,#s5{
+    background-color: rgb(0, 0, 0);
+}
+#s1,#s4,#s3,#s6,#s7{
+    background-color: #fff;
+}
+a.bl_btn {
+    display: inline-block;
+    padding:0 4rem;
+    line-height: 4rem;
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    background: rgb(0,0,0);
+    background: linear-gradient(118deg, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 100%);
+    color: #ffffff;
+    font-weight: 800;
+}
+a.sil_btn {
+    display: inline-block;
+    padding:0 4rem;
+    line-height: 4rem;
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    background: rgb(255,255,255);
+    background: linear-gradient(118deg, rgba(255,255,255,1) 0%, rgba(153,153,153,1) 100%);
+    color: #000;
+    font-weight: 800;
+}
+
+.img_wrap {
+    position: relative;
+}
+.deco {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#s0 .rel .tit_wrap,
+#s2 .rel .tit_wrap,
+#s3 .rel .tit_wrap,
+#s5 .rel .tit_wrap,
+#s6 .rel .tit_wrap {
+color: #fff;
+}
+.style_guide {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.font, .color {
+    display: flex;
+}
+.font span, .color span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.7rem;
+    padding: 0 1.2rem;
+}
+#s2 {
+    overflow: hidden;
+}
+#s4 {
+    z-index: 2;
+}
+#s5 {
+    z-index: 1;
+}
+#s6 {
+    z-index: 0;
+}
