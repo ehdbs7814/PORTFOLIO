@@ -139,6 +139,13 @@
     }
 }
 
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 40px;
+    display: flex;
+  }
+}
+
 @media screen and (max-width:767px) {
     #s0 .rel {
         max-width: 66rem;
