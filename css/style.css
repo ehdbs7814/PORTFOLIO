@@ -3,6 +3,12 @@
 @import url(reset.css);
 @import url(media.css);
 
+.wrapper {
+  transform: scale(0.75);
+  transform-origin: top left; /* 왼쪽 상단 기준으로 축소 */
+  width: 133.33%; /* 1 / 0.75 = 1.3333 */
+}
+
 #s0 {
     height: 100vh;
     background-color: #000;
